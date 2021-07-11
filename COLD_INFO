@@ -3,8 +3,15 @@ CREATE TABLE COLD_INFO (
     COLD_SUBMITTER VARCHAR(10) NOT NULL,
     COLD_NAME VARCHAR(255) NOT NULL,
     OWNER VARCHAR(255) NOT NULL,
+	CONTACT VARCHAR(255) NOT NULL,
     ADDRESS VARCHAR(255) NOT NULL,
     FACEBOOK_URL VARCHAR(255),
     LAST_UPDATED DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
 	PRIMARY KEY (COLD_SUBMITTER) 
 );
+--- 
+insert into COLD_INFO1(COLD_ID,COLD_SUBMITTER,COLD_NAME,OWNER,CONTACT,ADDRESS,FACEBOOK_URL) values(1,'lodhirajcs','Lodhi Rajput ice & cold storage pvt. ltd','Mohan Dutt urf Guddu Lodhi','+91-9927083110','eta road shikohabad','https://www.facebook.com/lrcold');
+
+insert into COLD_INFO1(COLD_ID,COLD_SUBMITTER,COLD_NAME,OWNER,CONTACT,ADDRESS,FACEBOOK_URL) values(2,'papgudcs','Pappu and Guddu ice & cold storage pvt. ltd','Ram Gopal urf Pappu Lodhi','+91-9927083010',' kotala road kotala','https://www.facebook.com/pgcold');
+
+insert into COLD_INFO1(COLD_ID,COLD_SUBMITTER,COLD_NAME,OWNER,CONTACT,ADDRESS,FACEBOOK_URL) values(3,'niniramcs','Ninnu Ram ice & cold storage pvt. ltd','Rajendra Prashad Lodhi','+91-9927083090','mainpuri road aron','https://www.facebook.com/baapucold');
