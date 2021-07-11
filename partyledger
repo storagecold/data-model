@@ -36,7 +36,7 @@ create table partyledger(
     BarQtyOut INT ,
     Mgrp INT ,
     ROI DECIMAL(15,2) ,
-    Force VARCHAR(50) ,
+    Force1 VARCHAR(50) ,
     GPNO INT ,
     GPSRNO INT ,
     RecNo DECIMAL(15,2) ,
