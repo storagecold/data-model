@@ -1,8 +1,8 @@
 Create Table GRP(
 COLD_ID INT NOT NULL,
 code DECIMAL(10,2),
-party VARCHAR(50),
-add1 VARCHAR(50),
+party VARCHAR(255),
+add1 VARCHAR(255),
 add2 VARCHAR(50),
 add3 VARCHAR(50),
 City VARCHAR(50),
